@@ -1,6 +1,5 @@
 use anyhow::Result;
 use axum::{routing::get, Router};
-use serde_json::Value;
 use socketioxide::{
     extract::{Data, SocketRef},
     SocketIo,
