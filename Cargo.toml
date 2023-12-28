@@ -1,0 +1,16 @@
+[package]
+name = "realtime"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.77"
+axum = "0.7.2"
+serde = { version = "1.0.193", features = ["derive"] }
+serde_json = "1.0.108"
+socketioxide = "0.9.1"
+tokio = { version = "1.35.1", features = ["full"] }
+tower = "0.4.13"
+tower-http = { version = "0.5.0", features = ["cors"] }
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
